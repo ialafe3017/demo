@@ -24,7 +24,7 @@ export const addNewStudents = (student) =>
         body:JSON.stringify(student)
     }).then(checkStatus);
 
-export const deleteStudents = (studentId=5000) =>
+export const deleteStudents = (studentId) =>
     fetch("api/v1/students" + "/" + studentId,{
         headers: {
             'Content-Type':'application/json'
