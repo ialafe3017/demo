@@ -234,6 +234,7 @@ function App() {
                    src = "https://user-images.githubusercontent.com/86618513/158483489-2282da98-1f9e-43f2-9ad4-f496821ba268.png"/>
                 <Divider>
                     <a
+                        rel = "noopener noreferrer"
                         target = "_blank"
                         href="https://www.varsitytutors.com">
                         click to access varsity tutors
