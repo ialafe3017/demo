@@ -9,7 +9,7 @@ import {
     Table,
     Spin,
     Empty,
-    Button, Badge, Tag, Popconfirm,
+    Button, Badge, Tag, Popconfirm,Image
 } from 'antd';
 
 import {
@@ -229,7 +229,10 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <Image width={75}
+                   src = "https://user-images.githubusercontent.com/86618513/158483489-2282da98-1f9e-43f2-9ad4-f496821ba268.png"/>
+            </Footer>
         </Layout>
     </Layout>
 }
