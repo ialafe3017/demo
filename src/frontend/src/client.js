@@ -25,7 +25,7 @@ export const addNewStudents = (student) =>
     }).then(checkStatus);
 
 export const deleteStudents = (studentId) =>
-    fetch("api/v1/students" + "/" + studentId,{
+    fetch(`api/v1/students/${studentId}`,{
         headers: {
             'Content-Type':'application/json'
         },
