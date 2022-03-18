@@ -237,7 +237,7 @@ function App() {
                         rel = "noopener noreferrer"
                         target = "_blank"
                         href="https://www.varsitytutors.com">
-                        click to access varsity tutors
+                       This tutors rock, here is a link!
                     </a>
                 </Divider>
             </Footer>
